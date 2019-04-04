@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#484545"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+
+
+    <ImageView
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reslogo"
+        />
+
+
+    <TextView
+        android:padding="30dp"
+        android:layout_marginLeft="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resturant Manager"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        android:progressTint="#0da3b4"
+        android:backgroundTint="#c6c0c0"
+        android:layout_margin="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signing in..."
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textColor="#d90000"
+        android:textStyle="italic"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    tools:context=".BurgerActivity">
+
+
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/pizzapic"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="200dp"
+        android:text="@string/pizza_text"
+        android:textSize="22dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+
+
+        />
+    <Button
+        android:id="@+id/orderButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Order"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+
+
+
+</LinearLayout>

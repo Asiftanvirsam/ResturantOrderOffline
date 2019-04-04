@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ResturantDemo</string>
+
+
+    <string name="option1">Fast Food</string>
+    <string name="option2">Launch item</string>
+    <string name="option3">Drinks</string>
+    <string name="option4">FandF Combo</string>
+
+    <string name="burger_text">
+        Height:4"\n Width:3"\n
+        Weight:200grm\n
+        Price:250tk\n
+    </string>
+
+
+    <string name="pizza_text">
+        
+        Size:10"\nType:Garlic Pizza,Extra virgin Oliveoil Pizza,Oregano Pizza\nPrice:800tk
+    </string>
+
+
+    <string name="coffee_text">
+        
+        Flavour:Chocolate\n Price:80tk
+    </string>
+
+
+</resources>
